@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4Practice1</title>
+</head>
+<body>
+    <h1>JavaScript Conditional Statements</h1>
+    
+    <h2>Check Age classification</h2>
+    <br>
+    <input id="kWh">
+    <button class="btn btn-info" onclick="checkaAge()">Check Age</button>
+
+    <script>
+        function checkAge(){
+                var kWh = dpcument.getElementById("").value;
+                var age = 20;
+                if (isNaN(age) || age < 0) {
+                    alert("Please assign a valid numero!");
+                }
+                
+                else if(age <18){
+                    alert("You are a Minor");
+                }
+
+                else if(age>=18){
+                    alert("You are going to be sent to the real world buddy.");
+                }
+
+                else{
+                    alert("Age can't be classifyed :(");
+                }
+        }
+
+    </script>
+</body>     
+</html>
